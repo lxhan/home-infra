@@ -8,5 +8,5 @@ services:
     volumes:
       - ./config:/config
       - ./cache:/cache
-      - ../../media:/media
+      - /media:/media
     restart: 'unless-stopped'
