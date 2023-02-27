@@ -10,9 +10,9 @@ services:
       - DELUGE_LOGLEVEL=error #optional
     volumes:
       - ./config:/config
-      - /media/downloads:/downloads
-      - /media/movies:/movies
-      - /media/shows:/shows
+      - ../../media/downloads:/downloads
+      - ../../media/movies:/movies
+      - ../../media/shows:/shows
     ports:
       - 8112:8112
       - 6881:6881
